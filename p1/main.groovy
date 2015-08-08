@@ -13,3 +13,5 @@ def multipleOf3And5(int value) {
 def result = multipleOf3And5 10
 
 assert result == [3, 5, 6, 9]
+
+multipleOf3And5(1000).sum()
